@@ -1,8 +1,8 @@
 @import "./nav.css";
 @import "./sidebar.css";
+@import "./button.css";
 
 * {
-  background-color: blueviolet;
   font-family: ui-sans-serif, system-ui, sans-serif;
   margin: 0;
   padding: 0;
@@ -17,7 +17,14 @@ body {
 }
 
 :root {
-  --text-color--: red;
+  --font-size-sm: 0.0875rem;
+  --line-height-sm: 1.25rem;
+  --border-radius-md: 0.25rem;
+  --duration-sm: 100ms;
+  --color-grey-100: #f3f4f6;
+  --color-gray-300: #d1d5db;
+  --color-white: #ffffff;
+  --text-color--: black;
 }
 
 .app {
