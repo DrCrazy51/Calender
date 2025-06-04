@@ -1,6 +1,7 @@
 @import "./nav.css";
 @import "./sidebar.css";
 @import "./button.css";
+@import "./responsive.css";
 
 * {
   font-family: ui-sans-serif, system-ui, sans-serif;
@@ -12,7 +13,7 @@
 body {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--text-color--);
+  color: var(--color-text-dark);
 
 }
 
@@ -24,7 +25,7 @@ body {
   --color-grey-100: #f3f4f6;
   --color-gray-300: #d1d5db;
   --color-white: #ffffff;
-  --text-color--: black;
+  --color-text-dark: #030712;
 }
 
 .app {
