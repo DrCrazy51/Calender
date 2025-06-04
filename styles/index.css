@@ -18,7 +18,7 @@ body {
 }
 
 :root {
-  --font-size-sm: 0.0875rem;
+  --font-size-sm: 0.875rem;
   --line-height-sm: 1.25rem;
   --border-radius-md: 0.25rem;
   --duration-sm: 100ms;
