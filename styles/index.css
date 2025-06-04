@@ -2,6 +2,7 @@
 @import "./sidebar.css";
 @import "./button.css";
 @import "./responsive.css";
+@import "./select.css";
 
 * {
   font-family: ui-sans-serif, system-ui, sans-serif;
@@ -19,18 +20,31 @@ body {
 
 :root {
   --font-size-sm: 0.875rem;
+  --font-size-lg: 1.125rem;
+
+
   --line-height-sm: 1.25rem;
+  --line-height-lg: 1.75rem;
+
+
   --border-radius-md: 0.25rem;
+
+
   --duration-sm: 100ms;
+
+
   --color-grey-100: #f3f4f6;
   --color-gray-300: #d1d5db;
   --color-white: #ffffff;
+  --color-blue-500: #3b82f6;
+  --color-blue-600: #2563eb;
+
   --color-text-dark: #030712;
+  --color-text-light: #f9fafb;
+
 }
 
 .app {
-  display: grid;
-  grid-template-columns: auto 1fr;
   height: 100vh;
 }
 
@@ -42,4 +56,12 @@ body {
 
 .calendar {
   height: 100%;
+}
+
+@media (min-width: 768px) {
+  .app {
+    grid-template-columns: auto 1fr;
+    display: grid;
+  }
+
 }

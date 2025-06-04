@@ -22,3 +22,26 @@
   display: flex;
   gap: 0.125rem;
 }
+
+.nav__date {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+}
+
+@media (min-width: 768px) {
+  .nav {
+    justify-content: space-between;
+    gap: 0;
+    padding: 0.5rem;
+  }
+
+  .nav__date-info {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .nav__controls {
+    gap: 0.5rem;
+  }
+}
