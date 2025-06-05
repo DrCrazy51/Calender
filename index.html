@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/styles/index.css" />
+  <script src="/scripts/index.js" type="module"></script>
   <title>Dynamic Calendar</title>
 </head>
 
@@ -73,7 +74,7 @@
           <time class="nav__date">June 2025</time>
         </div>
         <div class="select desktop-only">
-          <select class="select__select">
+          <select class="select__select" data-view-select>
             <option value="month" selected>Month</option>
             <option value="week">Week</option>
             <option value="day">Day</option>
@@ -85,7 +86,7 @@
         </div>
       </div>
       <div class="calendar">
-        <div class="month-calendar month-calendar--five-week">
+        <div class="month-calendar month-calendar--five-week" data-month-calendar>
           <ul class="month-calendar__day-of-week-list">
             <li class="month-calendar__day-of-week desktop-only">Sunday</li>
             <li class="month-calendar__day-of-week mobile-only">Sun</li>
@@ -330,7 +331,20 @@
             </ul>
           </div>
         </div>
-      </div>
+        <div class="week-calendar" data-week-calendar style="display: none;">
+          <ul class="week-calendar__day-of-week-list">
+            <li class="week-calendar__day-of-week">
+              <button class="week-calendar__day-of-week-button">
+                <span class="week-calendar__day-of-week-day"></span>
+                <span class="week-calendar__day-of-week-number"></span>
+              </button>
+            </li>
+          </ul>
+
+
+
+
+        </div>
     </main>
 
   </div>
