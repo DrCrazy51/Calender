@@ -4,6 +4,7 @@
 @import "./responsive.css";
 @import "./select.css";
 @import "./month-calendar.css";
+@import "./week-calendar.css";
 @import "./event.css";
 @import "./event-list.css";
 
@@ -41,14 +42,20 @@ body {
   --duration-sm: 100ms;
 
 
-  --color-grey-100: #f3f4f6;
+  --color-gray-100: #f3f4f6;
   --color-gray-300: #d1d5db;
+  --color-gray-500: #6b7280;
+
   --color-white: #ffffff;
   --color-blue-500: #3b82f6;
   --color-blue-600: #2563eb;
 
   --color-text-dark: #030712;
   --color-text-light: #f9fafb;
+
+
+  --box-shadow-md: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px -1px rgba(0, 0, 0, 0.01);
 
 }
 
