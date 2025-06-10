@@ -8,7 +8,7 @@
 @import "./event.css";
 @import "./event-list.css";
 @import "./scroll.css";
-
+@import "./dialog.css";
 
 
 * {
@@ -30,17 +30,20 @@ body {
   --font-size-lg: 1.125rem;
   --font-size-md: 1rem;
   --font-size-xs: 0.75rem;
+  --font-size-2xl: 1.5rem;
 
 
   --line-height-sm: 1.25rem;
   --line-height-lg: 1.75rem;
   --line-height-md: 1.5rem;
   --line-height-xs: 1rem;
+  --line-height-2xl: 2rem;
 
   --border-radius-md: 0.25rem;
 
 
   --duration-sm: 100ms;
+  --duration-md: 300ms;
 
 
   --color-gray-100: #f3f4f6;
@@ -49,6 +52,8 @@ body {
   --color-gray-500: #6b7280;
 
   --color-white: #ffffff;
+  --color-black: #000000;
+
   --color-blue-500: #3b82f6;
   --color-blue-600: #2563eb;
 
