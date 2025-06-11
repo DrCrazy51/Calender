@@ -9,6 +9,8 @@
 @import "./event-list.css";
 @import "./scroll.css";
 @import "./dialog.css";
+@import "./form.css";
+@import "./input.css";
 
 
 * {
