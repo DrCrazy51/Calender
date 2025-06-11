@@ -21,6 +21,10 @@
   appearance: none;
 }
 
+.select--fill .select__select {
+  width: 100%;
+}
+
 .select__icon {
   position: absolute;
   top: 50%;
