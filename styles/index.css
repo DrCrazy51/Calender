@@ -11,7 +11,7 @@
 @import "./dialog.css";
 @import "./form.css";
 @import "./input.css";
-
+@import "./color-select.css";
 
 * {
   font-family: ui-sans-serif, system-ui, sans-serif;
